@@ -1,5 +1,5 @@
 import React from 'react';
-import header from './assets/airline_header.jpg'
+import header from './assets/header.jpg'
 import './style.css'
 
 function Header() {
