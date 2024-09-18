@@ -17,8 +17,9 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 .section__container {
@@ -551,6 +552,13 @@ nav {
 @media (width < 900px) {
     nav .btn {
         display: none;
+    }
+
+    .header_text{
+        font-size: 3rem;
+        line-height: 4rem;
+        font-weight: 700;
+        top: 50%;
     }
 
     .header__container img {
