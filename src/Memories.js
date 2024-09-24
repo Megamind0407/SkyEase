@@ -7,8 +7,7 @@ function MemoriesSection() {
         <section className="memories">
             <div className="section__container memories__container">
                 <div className="memories__header">
-                    <h2 className="section__header">Travel to make memories all around the world</h2>
-                    <button className="view__all">View All</button>
+                    <h2 className="section__header">Journey to create lifelong memories worldwide</h2>
                 </div>
                 <div className="memories__grid">
                     <div className="memories__card">
