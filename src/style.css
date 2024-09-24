@@ -121,6 +121,7 @@ nav {
     text-align: center;
     transform: translate(-50%, -50%);
 }
+
 .booking__container {
     border-radius: 2rem;
     border: 1px solid var(--extra-light);
