@@ -106,7 +106,21 @@ nav {
     text-align: center;
     font-size: 3rem;
     line-height: 4rem;
+    transform-origin: center; /* Make it expand from the center */
+    animation: slideIn 1.5s ease forwards;
 }
+
+@keyframes slideIn {
+    from{
+        transform:translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 .header_text{
     position: absolute;
@@ -350,6 +364,11 @@ nav {
     border-radius: 5rem;
     background-color: var(--white);
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.05);
+    transition: ease 0.2s;
+}
+
+.memories__card:hover{
+    border: 1.5px solid #1677ff;  
 }
 
 .memories__card span {
@@ -363,11 +382,11 @@ nav {
 }
 
 .memories__card:nth-child(2) span {
-    background-color: #e98b6d;
+    background-color:#e98b6d;
 }
 
 .memories__card:nth-child(3) span {
-    background-color: #ffcca3;
+    background-color:darkslategray;
 }
 
 .memories__card h4 {
@@ -401,20 +420,21 @@ nav {
 
 .lounge__image img {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     border-radius: 20rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .lounge__image img:nth-child(1) {
-    max-width: 300px;
-    transform: translate(calc(-50% - 3rem), -50%);
+    max-width: 200px;
+    transform: translate(calc(-50% - 5rem), -50%);
 }
 
 .lounge__image img:nth-child(2) {
-    max-width: 200px;
+    max-width: 300px;
     transform: translate(calc(-50% + 6rem), calc(-50% + 7rem));
+    
 }
 
 .lounge__details h4 {
