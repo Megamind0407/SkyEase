@@ -1,7 +1,7 @@
 import React from 'react';
-import plan1 from './assets/plan-1.jpg'
-import plan2 from './assets/plan-2.jpg'
-import plan3 from './assets/plan-3.jpg'
+import plan1 from './assets/plane-1.jpg'
+import plan2 from './assets/plane-2.jpg'
+import plan3 from './assets/plane-3.jpg'
 import './style.css'
 function PlanSection() {
     return (
