@@ -108,6 +108,7 @@ nav {
     line-height: 4rem;
     transform-origin: center; /* Make it expand from the center */
     animation: slideIn 1.5s ease forwards;
+    margin-bottom: 6px;
 }
 
 @keyframes slideIn {
@@ -278,7 +279,7 @@ nav {
 }
 
 .plan__content .number:nth-child(7) {
-    background-color: #ffcca3;
+    background-color: darkslategray;
 }
 
 .plan__content h4 {
