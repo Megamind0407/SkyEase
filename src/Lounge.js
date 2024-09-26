@@ -15,19 +15,19 @@ function LoungeSection() {
                     <div className="lounge__details">
                         <h4>Experience Tranquility</h4>
                         <p>
-                            Serenity Haven offers a tranquil escape, featuring comfortable seating, calming ambiance, and attentive service.
+                            Serenity Haven is a peaceful haven with cozy seating, a soothing atmosphere, and attentive service.
                         </p>
                     </div>
                     <div className="lounge__details">
-                        <h4>Elevate Your Experience</h4>
+                        <h4>Enhance Your Engagement</h4>
                         <p>
-                            Designed for discerning travelers, this exclusive lounge offers premium amenities, assistance, and private workspaces.
+                            This exclusive lounge provides private workstations, premium facilities, and support, catering to discerning guests.
                         </p>
                     </div>
                     <div className="lounge__details">
-                        <h4>A Welcoming Space</h4>
+                        <h4>A Pleasant Environment</h4>
                         <p>
-                            The Family Oasis Lounge is thoughtfully designed with a vibrant play area, cozy seating, and child-friendly amenities.
+                            With its colorful play area, comfortable seats, and kid-friendly features, the Family Oasis Lounge is a thoughtfully planned space.
                         </p>
                     </div>
                 </div>
