@@ -9,7 +9,7 @@ import Travellers from './Travellers';
 import Subscribe from './Subscribe';
 import Footer from './Footer';
 import About from './Components/About/About';
-
+import ScrollToTop from './ScrollToTop';
 function App() {
   const location = useLocation(); 
 
@@ -25,6 +25,7 @@ function App() {
           <Lounge />
           <Travellers />
           <Subscribe />
+          <ScrollToTop/>
         </>
       )}
       <Routes>
