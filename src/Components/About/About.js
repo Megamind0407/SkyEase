@@ -10,14 +10,14 @@ function About() {
                     <h1>About Us</h1>
                     <span>
                         We at <strong>SkyEase</strong>, are dedicated to making air travel less complicated. Our platform offers an innovative and user-friendly interface that allows you to <strong>book flights effortlessly. </strong>Whether you're booking a well-planned business trip or a last-minute vacation, our platform's cutting-edge and intuitive interface makes it simple to book flights.
-                        <br/><br/>
+                        <br /><br />
                         Driven by cutting-edge technology, SkyEase provides you with <strong>real-time flight comparisons</strong>, <strong>personalized recommendations</strong>, and <strong>dynamic pricing models</strong> to ensure you always get the best value for your journey.
-                        <br/>
+                        <br />
                     </span>
                 </div>
-                <img src={header} alt='About Us Header' />
+                <img src={header} alt='' />
             </div>
-            <span className='footer_text'>Discover the world with us SkyEase, where your journey begins.</span>
+            <span className='footer_text'>Discover the world with us, where your journey begins.</span>
         </div>
     );
 }
