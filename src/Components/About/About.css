@@ -121,10 +121,10 @@
 }
 
 
-
 .about_container .footer_text {
     margin: auto;
     text-align: center;
+    font-size: 15px;
     font-weight: 600;
     color: var(--text-dark);
     letter-spacing: 5px;
