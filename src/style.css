@@ -33,7 +33,6 @@ html, body {
     font-weight: 600;
     line-height: 3rem;
     color: var(--text-dark);
-    
 }
 
 .btn {
@@ -107,7 +106,7 @@ nav {
     font-size: 3rem;
     line-height: 4rem;
     transform-origin: center; /* Make it expand from the center */
-    animation: slideIn 1.5s ease forwards;
+    animation: slideIn 0.98s ease forwards;
     margin-bottom: 6px;
 }
 
@@ -495,7 +494,7 @@ nav {
 }
 
 .subscribe__container {
-    max-width: 500px;
+    max-width: 600px;
     text-align: center;
 }
 
